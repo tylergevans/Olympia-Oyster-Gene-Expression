@@ -43,7 +43,7 @@ write.table(res,"REVISED O.lurida_pvalues_SALINITY.txt",quote=FALSE,col.names=TR
 
 
 ##To determine transcripts constitutively expressed at different levels in LL compared with OP and M
-##this test uses factor tolerance with levels tolerant (LL oysters) and not tolerant (OP and M oysters)
+##this test uses factor tolerance with levels tolerant (LL oysters) and less tolerant (OP and M oysters)
 ##this therefore requires a new bioconditions file with different sample assignments
 
 cts<-as.matrix(read.table("REVISED POP ONLY O.lurida_raw_counts.txt",header=TRUE,row.names=1, sep="\t"))
